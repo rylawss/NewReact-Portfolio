@@ -16,6 +16,7 @@ This is a portfolio made in React that shows off my previously completed project
 
 ## Picture
 
+![reactPortfolio](https://github.com/rylawss/NewReact-Portfolio/assets/128633609/df5be362-297d-4245-a279-6c8dba92f259)
 
 
 ## License
