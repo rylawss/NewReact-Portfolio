@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/NewReact-Portfolio/static/css/main.53231f24.css",
+    "main.js": "/NewReact-Portfolio/static/js/main.73e1778b.js",
+    "static/js/415.4d6acbeb.chunk.js": "/NewReact-Portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/NewReact-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/galaxybg.jpg": "/NewReact-Portfolio/static/media/galaxybg.7fe4af04404e8ab7ea67.jpg",
+    "static/media/home-main.svg": "/NewReact-Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/avatar.svg": "/NewReact-Portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/NewReact-Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/NewReact-Portfolio/index.html",
+    "main.53231f24.css.map": "/NewReact-Portfolio/static/css/main.53231f24.css.map",
+    "main.73e1778b.js.map": "/NewReact-Portfolio/static/js/main.73e1778b.js.map",
+    "415.4d6acbeb.chunk.js.map": "/NewReact-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/NewReact-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53231f24.css",
+    "static/js/main.73e1778b.js"
+  ]
+}
