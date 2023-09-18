@@ -9,25 +9,52 @@ function Projects() {
   return (
     <Carousel>
       <div>
-        <img src="https://picsum.photos/800/300/?random" />
-        <div className="legend">
-          <ul>
-            <li>
-              <a href="https://google.com"> Github </a>
-            </li>
-            <li>
-              <a href="https://google.com">Deployed Website</a>
-            </li>
-          </ul>
-        </div>
+        <img src="https://picsum.photos/800/301/?random" />
+        <p className="legend">
+          <a href="https://github.com/rylawss/12-Employee-Tracker">
+            Employee Tracker
+          </a>
+        </p>
       </div>
       <div>
         <img src="https://picsum.photos/800/301/?random" />
-        <p className="legend">Legend 2</p>
+        <p className="legend">
+          <a href="https://github.com/rylawss/13-E-commerce-Back-End">
+            E-commerce Back-End
+          </a>
+        </p>
       </div>
       <div>
-        <img src="https://picsum.photos/800/302/?random" />
-        <p className="legend">Legend 3</p>
+        <img src="https://picsum.photos/800/301/?random" />
+        <p className="legend">
+          <a href="https://github.com/rylawss/18-Social-Network-API">
+            Social Network API
+          </a>
+        </p>
+      </div>
+      <div>
+        <img src="https://picsum.photos/800/301/?random" />
+        <p className="legend">
+          <a href="https://github.com/rylawss/Book-Search-Engine">
+            Book search engine
+          </a>
+        </p>
+      </div>
+      <div>
+        <img src="https://picsum.photos/800/301/?random" />
+        <p className="legend">
+          <a href="https://github.com/t3p3-TheConglomerate/UllrsTavern">
+            UllrsTavern
+          </a>
+        </p>
+      </div>
+      <div>
+        <img src="https://picsum.photos/800/301/?random" />
+        <p className="legend">
+          <a href="https://github.com/rylawss/NewReact-Portfolio">
+            This sites repo
+          </a>
+        </p>
       </div>
     </Carousel>
   );

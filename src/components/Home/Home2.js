@@ -19,17 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am fluent in classics like
+              I am fluent in
               <i>
                 <b className="purple"> JavaScript, React, Node. </b>
               </i>
               <br />
               <br />
-              I debug more than I code.
               <br />
               <br />{" "}
               <i>
-                <b>I love coffee</b>
+                <b></b>
               </i>
             </p>
           </Col>

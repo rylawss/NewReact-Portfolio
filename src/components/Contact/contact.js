@@ -1,10 +1,22 @@
-import React from "react";
+// import React from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import Particle from "../Particle";
+import { useState } from "react";
 
 import Tilt from "react-parallax-tilt";
 
 function Contact() {
+  const [fullName, setFullName] = useState("");
+  const [department, setDepartment] = useState("");
+
+  const handleSubmitForm = (event) => {
+    alert("form submitted");
+    event.preventDefault(); // 👈️ prevent page refresh
+
+    // 👇️ clear all input values in the form
+    setFullName("");
+    setDepartment("");
+  };
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -34,7 +46,7 @@ function Contact() {
             }}
             className="about-img circular-image"
           ></Col>
-          <Form>
+          <Form type="input" onSubmit={handleSubmitForm} value={fullName}>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="name@example.com" />
@@ -46,11 +58,9 @@ function Contact() {
               <Form.Label>Message</Form.Label>
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
+            <button className="btn btn-dark">Submit</button>
           </Form>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
       </Container>
     </Container>
   );
